@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6080220050874582498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -469807107979307858, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: myCharacterType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -469807107979307858, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: BASE_PERSONALITY
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409651, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_Name
+      value: ADVENTURER Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868768518434409654, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -469807107979307858, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+    - {fileID: 4057555077325580301, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+    - {fileID: 1190597288477676840, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+    - {fileID: -2362733184648724130, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+--- !u!1 &8335791449891998033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2868768518434409651, guid: e9eee74884b923b4ea62d32f94452896, type: 3}
+  m_PrefabInstance: {fileID: 6080220050874582498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-116210271690378652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335791449891998033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5a9ecdddff2134e95404b957488935, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1020606450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335791449891998033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95490745d35c964f875b7f421c8b6b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BASE_TYPE_SINGULAR: Adventurer
+  BASE_TYPE_PLURAL: Adventurers
+  BASE_SPECIES: Human
+  BASE_SIZE: 6
+  IS_SENTIENT: 1
+  IS_SAPIENT: 1
+  myCharacterType: 0
+--- !u!114 &590590418882898359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335791449891998033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98d393740afdf894fb9d6357ce49a101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5962053158015204245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335791449891998033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622bbd2540583614daac7de04997cd17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inGroup: 0
+  myGroup: {fileID: 0}

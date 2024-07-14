@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 170453f637c3a754593d661c3646673f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - RANDOM_NAMES: {fileID: 11400000, guid: ebf418106a992894cbeeacf990b8780d, type: 2}
+  - HUMAN_PORTRAITS: {instanceID: 0}
+  - NOBLE_PORTRAITS: {instanceID: 0}
+  - BASE_STATE_VALUES: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
